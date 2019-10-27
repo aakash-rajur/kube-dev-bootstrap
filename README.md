@@ -28,7 +28,7 @@ vagrant configuration to deploy local kubernetes cluster
 KMASTER_CPUS=2
 # memory in MBs
 KMASTER_MEMORY=2048
-# specify list bash files at project root
+# specify list bash files at Vagrantfile level
 # comma separated, will be run in order of
 # declaration
 KMASTER_SCRIPTS=kmaster.sh
